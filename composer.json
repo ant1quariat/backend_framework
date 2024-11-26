@@ -1,0 +1,27 @@
+{
+  "name": "skygoose/backend_framework",
+  "description": "Фреймворк для удобной разработки backend-части веб-приложений.",
+  "version": "1.0.1",
+  "keywords": ["backend", "backend-framework", "skygoose", "backend-skygoose"],
+  "type": "library",
+  "license": "MIT",
+
+  "authors": [
+    {
+      "name": "SkyGoose",
+      "email": "skygoose.dev@ksp-host.ru"
+    }
+  ],
+
+  "require": {
+    "php": ">=8.1",
+    "ext-pdo": "*",
+    "ext-curl": "*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "skygoose\\backend_framework\\": "src/"
+    }
+  }
+}
